@@ -1,0 +1,236 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #d9dcd6;
+}
+
+/* Styling of Navbar */
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #7f7f7f;
+    color: #ffffff;
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+.header h1 .seo {
+    color: #d9dcd6;
+}
+
+.header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.header nav ul {
+    list-style-type: none;
+}
+
+.header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover {
+    color:#ff6c6c;
+    cursor: pointer;
+    
+}
+/* Profile picture of developer */
+.profile {
+    width: 250px;
+    height: auto;
+    float: left;
+    margin: 2rem;
+    margin-top: 0rem;
+    clear: left;
+}
+ .aboutme p {
+    display: flex;
+    margin: 60px;
+    margin-top: 5rem;;
+    padding-bottom: 200px;
+    font-size: 1.5rem; 
+    padding-right: 3rem;
+}
+
+.aboutme h1 {
+    margin-top: rem;
+        margin-right: 10px;
+        padding: 10px;
+        float: right;
+        width: 20%;
+        height: 2000%;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        border-left-style: solid;
+        
+}
+/* Styling for page content */
+.horiseon p {
+    display: flex;
+    margin: 0px;
+    padding-bottom: 200px;
+    font-size: 1.5rem; 
+}
+
+.portfolio p {
+    display: flex;
+    margin: 20px;
+    padding-bottom: 200px;
+    font-size: 1.5rem; 
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+.float-right:hover {
+    filter: blur(2px);
+    cursor: pointer;
+}
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.horiseon {
+    margin-bottom: 20px;
+    padding: 20px;
+    height: 450px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #7f7f7f;
+    color: #ffffff;
+}
+
+.portfolio {
+    margin-bottom: 20px;
+    padding: 20px;
+    height: 250px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #7f7f7f;
+    color: #ffffff;
+}
+
+.horiseon img {
+    max-height: 400px;
+}
+
+
+.portfolio img {
+    max-height: 200px;
+}
+
+.horiseon h2 {
+    font-size: 36px;
+}
+
+.portfolio h2 {
+    font-size: 24px;
+}
+article {
+    display: block;
+}
+
+.contact label, input {
+    display:flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+/* Styling for sidebar*/
+.sidebar {
+    margin-top: rem;
+    margin-right: 10px;
+    padding: 10px;
+    float: right;
+    width: 20%;
+    height: 2000%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-left-style: solid;
+}
+
+.projects {
+    margin-bottom: 450px;
+    color: #000000;
+}
+
+.contact-section {
+    margin-bottom: 32px;
+    color: #000000;
+}
+
+.contact-section h3 {
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+/* Styling for contact me icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Sets a specific color for each media */
+  
+  /* Facebook */
+  .fa-snapchat {
+    color: rgb(0, 0, 0);
+  }
+  
+  /* Instagram */
+  .fa-instagram {
+    color: rgb(0, 0, 0);
+  }
+
+   /* Instagram */
+   .fa-google {
+    color: rgb(0, 0, 0);
+  }
+
+
+.footer {
+    padding: 30px;
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.footer h2 {
+    font-size: 20px;
+}
+
+/* These rules will override the styling when the browser's width is 480px or less */
+@media screen 
+{ (min-width: 320px), (max-width: 480px), (orientation: portrait)
+}
