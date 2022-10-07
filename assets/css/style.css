@@ -101,6 +101,11 @@ a:hover {
     margin-right: 25px;
 }
 
+.float-left:hover {
+    filter: blur(2px);
+    cursor: pointer;
+}
+
 .float-right {
     float: right;
     margin-left: 25px;
