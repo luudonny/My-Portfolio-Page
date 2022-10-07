@@ -195,28 +195,28 @@ article {
     width: 50px;
     text-align: center;
     text-decoration: none;
-  }
+}
   
   .fa:hover {
     opacity: 0.7;
-  }
+}
   
-  /* Sets a specific color for each media */
+/* Sets a specific color for each media */
   
-  /* Facebook */
-  .fa-snapchat {
+/* Facebook */
+.fa-snapchat {
     color: rgb(0, 0, 0);
-  }
+}
   
-  /* Instagram */
-  .fa-instagram {
+/* Instagram */
+.fa-instagram {
     color: rgb(0, 0, 0);
-  }
+}
 
-   /* Instagram */
-   .fa-google {
+/* Instagram */
+.fa-google {
     color: rgb(0, 0, 0);
-  }
+}
 
 
 .footer {
