@@ -15,7 +15,7 @@ Key features include
 ### Links
 
 [Link to the deployed website]()
-[Link to the code repository](https://github.com/luudonny/Portfolio-Page)
+[Link to the code repository](https://github.com/luudonny/My-Portfolio-Page)
 
 
 ## Installation
